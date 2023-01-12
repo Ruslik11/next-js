@@ -8,7 +8,7 @@ const Socials = ({ socials }) => {
     return (
         <>
             <Head>
-                <link rel="stylesheet" crossOrigin href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.css"/>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.css"/>
             </Head>
             <ul className='wrapper'>
                 {socials && socials.map(({id, icon, path}) => <li key={id}>
