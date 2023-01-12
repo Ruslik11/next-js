@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    &.active {
+      color: darkred;
+    }
+  }
+}
+
+.logo {
+
+}
